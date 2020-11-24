@@ -5,7 +5,12 @@ public class Test {
 
     public static void yeniMethod()
     {
-        System.out.println("yeni methodum hazir");
-        System.out.println("sepete ekle kisimlari buralar");
+
+        System.out.println("sepete ekle kisimlari buralar"); // System.out.println("yeni methodum hazir"); burasi silindi ve commit yapildi
+    }
+
+    private static void sepettenSil()
+    {
+        System.out.println("sepetten sil bölümü bitti");
     }
 }
